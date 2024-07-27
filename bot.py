@@ -7,11 +7,11 @@ from os import environ
 from pyrogram import Client, filters
 from pyrogram.types import *
 
-API_ID = environ.get('24897616')
-API_HASH = environ.get('61f20724c18a07c1150a4297f3240f05')
-BOT_TOKEN = environ.get('6371350342:AAEc-KJpS4k-mLDvoW9Ncz1a4Mk2Za_fD8E')
-API_KEY = environ.get('92e45da7e8b1afa4ce12ccfb2546ea0248cff640')
-API_URL = environ.get('http://adrinolinks.in')
+API_ID = environ.get('5010466936')
+API_HASH = environ.get('f8b380e48c66c9ce9c30eb8e4e3da550')
+BOT_TOKEN = environ.get('6677598838:AAFYfpf7wyEy8wcSDOAwJxvoMMmzwchoq6E')
+API_KEY = environ.get('5d6505709fb29c5d45cd44c9fe75ba6c913252b8')
+API_URL = environ.get('https://viplinkshortx.in/api')
 
 akbotz = Client('link shortener bot',
              api_id=API_ID,
